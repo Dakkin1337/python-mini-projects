@@ -1,3 +1,5 @@
 # This is simple program to show how print statement works
 #hello there
-print('Hello Python World')
+greeting = input("Say hi: ")
+if greeting == 'Hello there':
+    print(" *lyssværdslyse^4* General Kenobi!")
